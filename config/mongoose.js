@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 
 // connect to the database
-mongoose.connect('mongodb://localhost:27017/usersdb',
+mongoose.connect('mongodb+srv://sandy:s@ndeep1001@cluster0.utjat.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
   {
     useNewUrlParser: true,
     useFindAndModify: false,
